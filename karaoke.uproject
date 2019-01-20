@@ -28,6 +28,10 @@
 			"Name": "FrameCapture",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f1ca5b3ffe5d47f9aae8bb9fd76a8236"
+		},
+		{
+			"Name": "SoundVisualizations",
+			"Enabled": true
 		}
 	]
 }
