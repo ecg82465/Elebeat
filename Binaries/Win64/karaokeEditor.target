@@ -62,6 +62,18 @@
 			"Type": "DynamicLibrary"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/Binaries/Win64/UE4Editor-FrameCapture.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/Binaries/Win64/UE4Editor-FrameCapture.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/SoundVisualizations/Binaries/Win64/UE4Editor-SoundVisualizations.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/BlueprintUtility/Binaries/Win64/UE4Editor-BlueprintUtility.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -1822,6 +1834,14 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/SoundVisualizations/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/BlueprintUtility/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2140,6 +2160,14 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/FrameCapture.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/BlueprintUtility/BlueprintUtility.uplugin",
 			"Type": "UFS"
 		},
@@ -2414,6 +2442,26 @@
 		{
 			"Path": "$(EngineDir)/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin",
 			"Type": "UFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/Source/OpenCVLib/x64/OpenCVLibrary.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/Source/OpenCVLib/x64/FileExplorer.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/Source/ThirdParty/OpenCV/Libraries/Win64/opencv_world341.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/Source/ThirdParty/OpenCV/Libraries/Win64/opencv_world341d.dll",
+			"Type": "NonUFS"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/Marketplace/FrameCapture/Source/ThirdParty/OpenCV/Libraries/Win64/opencv_ffmpeg341_64.dll",
+			"Type": "NonUFS"
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/svn/Win64/apr_crypto_openssl-1.dll",
