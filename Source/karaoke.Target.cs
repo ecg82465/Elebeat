@@ -10,5 +10,7 @@ public class karaokeTarget : TargetRules
 		Type = TargetType.Game;
 
 		ExtraModuleNames.AddRange( new string[] { "karaoke" } );
+
+
 	}
 }
