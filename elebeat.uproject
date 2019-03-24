@@ -20,6 +20,14 @@
 		{
 			"Name": "SoundVisualizations",
 			"Enabled": true
+		},
+		{
+			"Name": "NiagaraExtras",
+			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
 		}
 	]
 }
